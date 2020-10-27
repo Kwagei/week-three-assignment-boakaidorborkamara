@@ -1,0 +1,218 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(Mangere\ War\ Memorial\ Hall\ Interior\ 925x694.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header
+{
+    display: flex;
+    height: 15vh;
+    background-color: rgb(27, 25, 25);
+    padding: 10px;
+    margin-bottom: 100px;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.logo
+{
+    font-size: 1em;
+    padding: 25px;
+    margin-right: 30px;
+    margin-left: 100px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+nav
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.upperNav
+{
+    display: flex;
+    margin-bottom: 5px;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;   
+    color: white;
+}
+
+.upperRightSection
+{
+    margin-left: 700px;
+}
+
+.upperLeftSection a
+{
+    margin-right: 20px;
+}
+
+ .lowerNav
+ {
+     padding-top: 5px;
+    color: white;
+    align-self: flex-start;
+ }
+
+ .lowerNav button
+ {
+     margin-left: 755px;
+     padding: 5px;
+    background-color: steelblue;
+    color: white;
+    border: none;
+ }
+
+ .lowerNav .inactiveText
+ {
+     color: rgb(133, 125, 125);
+ }
+
+.CalltoAction
+{
+    width: 60%;
+    height: 200px;
+    padding: 50px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    margin: 0px auto; 
+    opacity: 0.9;
+}
+
+.CalltoAction h2{
+    margin-left: 400px;
+}
+
+.CalltoAction p{
+    margin-left: 400px;
+}
+
+.CalltoAction button
+{
+    display: -webkit-inline-box;
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+    padding: 5px 40px 5px 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: 400px;
+}
+
+.CalltoAction button:hover
+{
+background-color: white;
+color: black;
+}
+
+form
+{
+    background-color: white;
+    width: 25%;
+    padding: 30px 25px 25px 25px;
+    bottom: 300px;
+    left: 250px;
+    top: 175px;
+    height: 340px;
+    position: absolute;
+    
+}
+
+form a
+{
+    color: blue;
+    font-weight: bolder;
+}
+
+form [type="text"]
+{
+    padding: 7px;
+    background-color:rgb(168, 155, 155);
+    left: 88px;
+    border: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form select
+{
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    margin-bottom: 20px;
+    margin-right: 0px;
+}
+
+form [type="tel"]
+{
+   padding: 7px;
+    background-color:rgb(168, 155, 155);
+    position: absolute;
+    left: 88px;
+    border: none;
+    width: 72%;  
+}
+
+form [type="password"]
+{
+   padding: 7px;
+    background-color:rgb(168, 155, 155);
+    left: 88px;
+    border: none;
+    width: 100%;  
+}
+
+form label
+{
+    font-size: small;
+}
+
+
+form div{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.loginOption
+{
+    font-size: small;
+    margin-top: 30px;
+    
+}
+
+
+
+form button
+{
+    background-color: blue;
+    color: white;
+    border: white solid 2px;
+    padding: 5px 60px 5px 60px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 185px;
+}
+
+form button:hover
+{
+    background-color: rgb(89, 0, 255);
+}
+    
+
